@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Secret Santa</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Josefin+Slab" rel="stylesheet">
+<script src="https://use.fontawesome.com/94b6538058.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+    <h1 id="title">Secret Santa</h1>
+
+    <div class="row">
+
+      <div class="col-md-3 col-md-offset-2 col-xs-12 col-sm-12" id="section1">
+
+        <div class="container">
+          <h2>Who are you?</h2>
+          <p style="font-size: 26px;">(No cheating!)</p>
+
+          <div class="dropdown">
+            <button onclick="dropFunction()" class="dropdownBtn">Pick your name  <i class="fa fa-angle-double-down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <button id="GrandpaBtn">Grandpa</button>
+              <button id="WarrenBtn">Warren</button>
+              <button id="CaroleBtn">Carole</button>
+              <button id="HelenBtn">Helen</button>
+              <button id="BrookeBtn">Brooke</button>
+              <button id="JacobBtn">Jacob</button>
+              <button id="BriannaBtn">Brianna</button>
+              <button id="PrestonBtn">Preston</button>
+            </div>
+            <!--contents-->
+          </div>
+          <!--dropdown-->
+        </div>
+        <!--container-->
+      </div>
+      <!--col1-->
+
+      <div class="col-md-5 col-xs-12 col-sm-12" id="section2">
+        <div class="container">
+          <h2 id="response">You are the Secret Santa for...</h2>
+          <h3 id="who"></h3>
+        </div>
+        <!--container-->
+      </div>
+      <!--col2-->
+
+    </div>
+    <!--row-->
+  
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

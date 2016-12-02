@@ -1,0 +1,102 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#section1, #section2 {
+  display: table;
+  text-align: center;
+}
+
+.container {
+  display: table-cell;
+}
+
+.row {margin-top: 40px;}
+
+body {
+  background-image: url("http://www.publicdomainpictures.net/pictures/70000/velka/silver-christmas-background.jpg");
+/*http://teknolojihaberleritv.com/wp-content/uploads/2015/11/christmas-lights-background-0ot0dapk.jpg*/
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title {
+  font-family: 'Fredericka the Great', cursive;
+  color: #B03A2E;
+  font-size: 150px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 65px;
+}
+
+h3 {font-family: 'Fredericka the Great', cursive;
+font-size: 80px;
+  color: #B03A2E;
+}
+
+p {font-family: 'Josefin Slab', serif;
+}
+
+.dropdownBtn {
+  background-color: #CB4335;
+  color: #F2F3F4;
+  padding: 15px;
+  min-width: 170px;
+  border: none;
+  outline: none;
+}
+
+.dropdownBtn:hover {
+   background-color: #B03A2E;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content button {
+  background-color: #F2F3F4;
+  color: #B03A2E;
+  padding: 15px;
+  min-width: 170px;
+  border: none;
+  display: block;
+  outline: none;
+}
+
+.dropdown-content button:hover {
+  background-color: #E74C3C;
+  color: #F2F3F4;
+}
+
+.show {display: block;
+margin-bottom: 40px;}
+
+.space {margin-bottom: 450px;
+  }
+
+
+@media only screen and (max-width: 500px) {
+    #title {
+        font-size: 100px;
+    }
+  h2 {font-size: 50px;}
+  h3 {font-size: 60px;}
+}
